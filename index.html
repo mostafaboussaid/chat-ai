@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="microchip.png">
+    <script>
+
+    </script>
+</head>
+<body>
+    <audio src="ai.mp3" id="audio" autoplay loop></audio>
+    <div id="ai">
+      <p class="p-pause-play"><button id="pmusic"><i class="pause-play fa-solid fa-pause"></i></button>Song Title: "I am AI"</p>
+      <div class="header">
+        <h1>Chat AI</h1>
+      </div>
+        <div class="chat-area">
+          <ul class="chat-box">
+
+            <li class="ai-msg">
+              <span class="fa-solid fa-microchip"></span>
+              <p>Hi There! <br> How can I Help you?</p>
+            </li>
+          </ul>
+        </div>
+        <div class="chat-input">
+          <textarea type="text" id="input-text" required placeholder="Type your text here..."></textarea>
+          <button class="material-icons" id="input-send">send</button>
+        </div>
+      </div>
+</body>
+</html>
