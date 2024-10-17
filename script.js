@@ -53,7 +53,7 @@ function activateBot() {
     generateResponse();
     }
 }
-const API_KEY = "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"; 
+const API_KEY = "my-api"; 
 const generateResponse = () => {
     const API_URL = "https://api.openai.com/v1/chat/completions";
 
